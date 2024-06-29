@@ -1,0 +1,74 @@
+.food-submit{
+    padding: 0.8rem 0 0 0.5rem;
+}
+
+
+
+.submit-food {
+    /* Variables */
+    --button_radius: 0.75em;
+    --button_color: #000000;
+    --button_outline_color: #ffffff;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: var(--button_radius);
+    background: var(--button_outline_color);
+    
+    
+  }
+  
+  .button_top {
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid var(--button_outline_color);
+    border-radius: var(--button_radius);
+    padding: 0.75em 1.5em;
+    background: var(--button_color);
+    color: var(--button_outline_color);
+    transform: translateY(-0.2em);
+    transition: transform 0.1s ease;
+    color: white;
+  }
+  
+  .submit-food:hover .button_top {
+    /* Pull the button upwards when hovered */
+    transform: translateY(-0.33em);
+  }
+  
+  .submit-food:active .button_top {
+    /* Push the button downwards when pressed */
+    transform: translateY(0);
+  }
+
+  Textfield::-webkit-outer-spin-button,
+Textfield::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+
+
+.dropdown{
+    margin: 8px;
+}
+
+.signupForm-cont{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.contact{
+    padding-top: 2rem;
+    padding-left: 8rem;
+}
+
+
+  @media(max-width:600px){
+    
+  }
+
+

@@ -1,0 +1,64 @@
+.login-container{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+.login-showcase{
+    width: 50vw;
+    font-family: futura;
+    font-size: 1rem;
+}
+
+.login-form{
+    width: 50vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.login-form>form>input{
+    color: black;
+}
+
+
+
+
+
+.intro-heading {
+    padding: 100px 0 0 100px;
+    height: 75vh;
+}
+
+.intro-name {
+    font-family: "futura";
+    margin: 0.5px;
+    width: 50vw;
+    font-size: 3.5rem;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background: -webkit-linear-gradient(0.9turn,rgb(255, 255, 255), rgb(100, 100, 100));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.2em;
+    padding: 150px 0 20px 0;
+}
+
+.introStart {
+    color: aquamarine;
+    font-family: "Source Code Pro", monospace;
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.intro-para{
+    width: 45vw;
+    padding-bottom: 20px;
+    font-size: 1.07rem;
+    font-family: fangsong;
+    color: #ffffff8f;
+    letter-spacing: 1px;
+}
